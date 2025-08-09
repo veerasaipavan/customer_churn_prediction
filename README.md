@@ -80,7 +80,7 @@ An end-to-end Data Science & BI project using Python and Power BI to predict cus
 
 ## **Sample Visuals**  
 **Power BI Dashboard**  
-![Dashboard](dashboard/powerbi_churn_dashboard.png)  
+![Dashboard](Screenshot 2025-07-23 160027.png)  
 
 This interactive dashboard includes:  
 - **Churn Rate:** 20.4%  
@@ -125,7 +125,7 @@ Customer_Churn_Prediction/
 ---
 
 ## **View Notebook**
-📄 [Open Jupyter Notebook](notebooks/customer_churn_prediction_with_segmentation.ipynb.ipynb)  
+📄 [Open Jupyter Notebook](customer_churn_prediction_with_segmentation.ipynb.ipynb)  
 
 ---
 
