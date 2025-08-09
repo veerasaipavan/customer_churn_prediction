@@ -1,90 +1,83 @@
-Customer Churn Prediction & Segmentation with Python & Power BI
-This end-to-end project identifies potential churners in a bank’s customer base using machine learning, and visualizes actionable insights through an interactive Power BI dashboard.
+Customer Churn Prediction & Segmentation
+This project predicts customer churn for a bank using machine learning and provides actionable customer segmentation insights. It combines Python for data processing & modeling with Power BI for visualization, enabling data-driven retention strategies.
 
-Project Overview
-Customer retention is a critical challenge for businesses. This project predicts customer churn and segments users for targeted retention strategies using Python for modeling and Power BI for visualization.
+ Project Overview
+Many businesses struggle to retain customers, especially in competitive industries like banking. This project uses historical customer data to:
 
-Key Steps
-Data Cleaning & Preprocessing
+Predict which customers are likely to leave (churn).
 
-Exploratory Data Analysis (EDA)
+Segment customers based on key behavioral & demographic features.
 
-Machine Learning Model Development
+Visualize results in an interactive Power BI dashboard.
 
-Class Imbalance Handling (SMOTE)
+ Tech Stack
+Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
 
-Customer Segmentation (KMeans)
+Machine Learning (Logistic Regression, Random Forest, XGBoost)
 
-Dimensionality Reduction (PCA)
+Power BI (interactive dashboard for churn insights)
 
-Interactive Power BI Dashboard
+Jupyter Notebook for development
 
- Files Included
-customer_churn_prediction_with_segmentation.ipynb — Jupyter Notebook with full pipeline (EDA → ML → Clustering)
+ Project Workflow
+1. Data Preparation
+Loaded and cleaned raw customer dataset.
 
-Bank Customer Churn Prediction.csv — Dataset for training & analysis
+Handled missing values, duplicates, and data type conversions.
 
-customer_churn_dashboard.pbix — Final interactive Power BI dashboard
+Performed feature engineering (e.g., tenure groups, balance ranges).
 
-🛠 Technologies Used
-EDA
-Churn distribution
+2. Exploratory Data Analysis (EDA)
+Churn distribution analysis.
 
-Age vs Churn rate
+Impact of demographics (age, gender, geography).
 
-Geography & Gender insights
+Relationship between product usage & churn.
 
-Tenure vs Balance correlation
+3. Modeling
+Split data into train/test sets.
 
-Machine Learning
-Logistic Regression
+Trained multiple ML models for churn prediction.
 
-Random Forest Classifier
+Evaluated models using Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
-Evaluation Metrics:
+4. Customer Segmentation
+Applied KMeans Clustering and PCA for dimensionality reduction.
 
-Accuracy
+Identified distinct customer groups for targeted marketing.
 
-ROC-AUC
+5. Visualization
+Designed a Power BI dashboard showing churn rates, high-risk segments, and KPIs.
 
-Classification Report
+ Key Insights
+High churn among younger customers with fewer products.
 
-Customer Segmentation
-KMeans Clustering to identify:
+Customers with low balances & short tenure are more likely to leave.
 
-High-risk churners
+Certain geographic regions show higher churn probability.
 
-Loyal customers
+ Results & Deliverables
+Cleaned datasets for further use.
 
-Low engagement customers
+ML churn prediction model with best ROC-AUC score.
 
-PCA for 2D visualization of clusters
---
- Power BI Dashboard Highlights
-KPIs: Total Customers, Churn Rate, Retention %
+Customer segmentation clusters for retention strategies.
 
-Filters: Gender, Geography, Tenure, Age Range
+Power BI dashboard for business decision-making.
 
-Visuals: Clustered column charts, line charts, churn by age & tenure
-"C:\Users\veera\OneDrive\Documents\Desktop\customer-churn-prediction\customer churn dashboard.pbix"
-Goal: Help stakeholders monitor churn risk & segment behavior
---
- How to Use
-Open the Jupyter Notebook and run each cell to reproduce the analysis.
+ Dashboard Preview
+![Customer Churn Dashboard](Screenshot%202025-07-23%20160027.png)
 
-Load the .pbix file in Power BI Desktop to explore the dashboard.
-
-Replace the dataset with your own CSV for reuse.
-
--- Key Results
-87% Accuracy with Random Forest
-
-Applied SMOTE to improve model performance
-
-Built clear, interactive visual stories in Power BI
-
-Delivered segmentation-based marketing recommendations
---
-Author: Veera Sai Pavan Chavvakula
-LinkedIn Profile
-
+ Repository Structure
+bash
+Copy
+Edit
+├── data/                     # Raw & cleaned datasets
+├── notebooks/                # Jupyter notebooks
+├── powerbi/                  # PBIX dashboard file
+├── models/                   # Saved ML models
+├── README.md                 # Project documentation
+ Contact-- AUTHOR
+Veera Sai Pavan Chavvakula
+ veerasaipavan6673@gmail.com
+ LinkedIn
