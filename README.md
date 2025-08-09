@@ -125,7 +125,7 @@ Customer_Churn_Prediction/
 ---
 
 ## **View Notebook**
-📄 [Open Jupyter Notebook](notebooks/churn_prediction_analysis.ipynb)  
+📄 [Open Jupyter Notebook](notebooks/customer_churn_prediction_with_segmentation.ipynb.ipynb)  
 
 ---
 
