@@ -80,7 +80,7 @@ An end-to-end Data Science & BI project using Python and Power BI to predict cus
 
 ## **Sample Visuals**  
 **Power BI Dashboard**  
-![Dashboard](customer_churn_prediction/Screenshot2025-07-23160027.png)
+
 ![Customer Churn Dashboard](Screenshot%202025-07-23%20160027.png)
 
 This interactive dashboard includes:  
@@ -93,6 +93,8 @@ This interactive dashboard includes:
 ---
 
 ## **Folder Structure**
+
+```
 Customer_Churn_Prediction/
 │
 ├── data/
@@ -106,6 +108,8 @@ Customer_Churn_Prediction/
 │ └── churn_predictions.csv
 ├── README.md
 └── requirements.txt
+
+```
 
 ---
 
